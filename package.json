@@ -1,0 +1,23 @@
+{
+  "name": "orion",
+  "version": "0.0.1",
+  "description": "This is a simple implementation of GraphQL, and NodeJS as backend to whatever app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ferdinand McDaniel imcdanielamano@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^1.1.2",
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
+    "graphql": "^0.11.4",
+    "graphql-tools": "^1.2.3",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.31",
+    "sequelize": "^4.11.1",
+    "sqlite": "^2.8.0"
+  }
+}
