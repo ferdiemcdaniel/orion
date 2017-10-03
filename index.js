@@ -25,6 +25,7 @@ const start = async () => {
         '/graphiql',
         graphiqlExpress({
             endpointURL: '/graphql',
+            passHeader: `'Authorization': 'bearer token-ferdinand.amano@goabroad.com'`, 
         })
     );
     const PORT = 3000;
